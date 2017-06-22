@@ -31,5 +31,9 @@ public class ProjectConfigReader {
         return properties.getProperty("BROWSER_NAME");
     }
 
+    public String getURL(){
+        return properties.getProperty("APP_URL");
+    }
+
 
 }
