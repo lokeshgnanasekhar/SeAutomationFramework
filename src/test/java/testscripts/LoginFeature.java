@@ -13,4 +13,10 @@ public class LoginFeature extends TestBase {
     {
         launchWebsite().login("lokeshg.mca@gmail.com","Password123");
     }
+
+    @Test
+    public void SigninWithInvalidCredentials()
+    {
+        launchWebsite().invalidLogin("lokeshg.mca1@gmail.com","Password123");
+    }
 }

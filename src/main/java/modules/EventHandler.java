@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Created by Lokesh_GnanaSekhar on 6/21/2017.
  */
@@ -55,5 +57,9 @@ public class EventHandler {
         }
         return false;
 
+    }
+
+    public void waitForPageToLoad(){
+        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
     }
 }
