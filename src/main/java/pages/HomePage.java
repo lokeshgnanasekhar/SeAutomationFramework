@@ -23,6 +23,10 @@ public class HomePage extends EventHandler {
     @FindBy(xpath = "//input[@value='Sign In']")
     WebElement signinSubmitButton;
 
+    @FindBy(xpath = "//*[@id='modal-T38']/div/header/a']")
+    WebElement promoPopupCloseButton;
+
+
     public HomePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -34,6 +38,9 @@ public class HomePage extends EventHandler {
 
     public void login(String emailId, String password) {
 
+        if(waitForElementToBeVisible(promoPopupCloseButton)){
+            click(promoPopupCloseButton);
+        }
         if (waitForElementToBeVisible(signinText)) {
             click(signinText);
             enterText(emailAddressTextField, emailId);

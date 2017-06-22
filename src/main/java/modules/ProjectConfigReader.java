@@ -1,9 +1,6 @@
 package modules;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.Properties;
 
 /**
@@ -17,7 +14,9 @@ public class ProjectConfigReader {
     public ProjectConfigReader(){
         properties = new Properties();
         try {
-            input = new FileInputStream("../resources/ProjectConfig.properties");
+            ClassLoader classLoader = getClass().getClassLoader();
+            File file = new File(classLoader.getResource("ProjectConfig.properties").getFile());
+            input = new FileInputStream(file);
             properties.load(input);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
