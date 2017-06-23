@@ -19,6 +19,7 @@ public class EventHandler {
 	 */
     public void click(WebElement element) {
         try {
+            waitForElementToBeVisible(element);
             element.click();
         } catch (ElementNotVisibleException expection) {
             System.out.println("Unable to Locate the element");
@@ -32,6 +33,7 @@ public class EventHandler {
      */
     public void enterText(WebElement element, String textToEnter) {
         try {
+            waitForElementToBeVisible(element);
             element.clear();
             element.sendKeys(textToEnter);
         } catch (ElementNotVisibleException exception) {
@@ -61,5 +63,13 @@ public class EventHandler {
 
     public void waitForPageToLoad(){
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+    }
+
+    public void waitFor(int time){
+        try {
+            Thread.sleep(time*1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

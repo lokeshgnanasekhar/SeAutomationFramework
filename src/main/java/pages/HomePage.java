@@ -44,7 +44,7 @@ public class HomePage extends EventHandler {
         ;
     }
 
-    public void login(String emailId, String password) {
+    public MenuPage login(String emailId, String password) {
 
         closePromoPopup();
         if (waitForElementToBeVisible(signinText)) {
@@ -52,8 +52,10 @@ public class HomePage extends EventHandler {
             enterText(emailAddressTextField, emailId);
             enterText(passwordTextField, password);
             click(signinSubmitButton);
-
+            waitFor(5);
+            return new MenuPage(driver);
         }
+        return null;
     }
 
     public void invalidLogin(String emailId, String password) {
@@ -77,11 +79,7 @@ public class HomePage extends EventHandler {
             driver.switchTo().window(winHandle); // switch focus of WebDriver to the next found window handle (that's your newly opened window)
         }
         click(promoPopupCloseButton);
+        waitFor(3);
 
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 }
