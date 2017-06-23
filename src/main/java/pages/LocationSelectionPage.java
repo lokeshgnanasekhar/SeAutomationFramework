@@ -26,6 +26,15 @@ public class LocationSelectionPage extends EventHandler{
     @FindBy(xpath = "//*[@id='store-details-accordion-1']/div[2]/a/i")
     WebElement expandSelectedCarryoutStore;
 
+    @FindBy(id = "locations-streetaddress")
+    WebElement deliveryStreetAddressTextField;
+
+    @FindBy(id = "locations-usa-zipcode")
+    WebElement deliveryZipTextField;
+
+    @FindBy(xpath = "//form[@id='locations-form']//input[@value='Submit']")
+    WebElement deliverySubmitBtn;
+
     public LocationSelectionPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -46,4 +55,12 @@ public class LocationSelectionPage extends EventHandler{
 
     }
 
+    public MenuPage selectDelivery(String streetAddress , String zipcode){
+        waitForElementToBeVisible(deliveryStreetAddressTextField);
+        enterText(deliveryStreetAddressTextField,streetAddress);
+        enterText(deliveryZipTextField,zipcode);
+        click(deliverySubmitBtn);
+        return  new MenuPage(driver);
+
+    }
 }

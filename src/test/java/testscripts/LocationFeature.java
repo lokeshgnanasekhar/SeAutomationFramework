@@ -14,4 +14,12 @@ public class LocationFeature extends TestBase {
                        .editLocation()
                        .selectCarryout("40220");
     }
+
+    @Test
+    public void selectDeliveryStore()
+    {
+        launchWebsite().login("lokeshg.mca@gmail.com","Password123")
+                .editLocation()
+                .selectDelivery("2002 Papajohns Blvd","40299");
+    }
 }
