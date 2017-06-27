@@ -1,6 +1,7 @@
 package pages;
 
 import modules.EventHandler;
+import modules.Log;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -10,6 +11,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 /**
  * Created by Lokesh_GnanaSekhar on 6/22/2017.
@@ -39,19 +41,24 @@ public class HomePage extends EventHandler {
         this.driver = driver;
         PageFactory.initElements(driver, this);
         if (!(driver.getTitle().contains("Order for Delivery or Carryout"))) {
-            throw new IllegalStateException("My Template page is expected, but not displayed!");
+            throw new IllegalStateException("Home page is expected, but not displayed!");
         }
-        ;
+
+        Log.info("Navigated to Home Page");
     }
 
     public MenuPage login(String emailId, String password) {
 
-        closePromoPopup();
+       // closePromoPopup();
         if (waitForElementToBeVisible(signinText)) {
             click(signinText);
+            Log.info("Clicked on Signin Text");
             enterText(emailAddressTextField, emailId);
+            Log.info("Entered "+emailId+" in E-maild field");
             enterText(passwordTextField, password);
+            Log.info("Entered "+password+" in Password field");
             click(signinSubmitButton);
+            Log.info("Clicked on Submit button");
             waitFor(5);
             return new MenuPage(driver);
         }
@@ -60,14 +67,18 @@ public class HomePage extends EventHandler {
 
     public void invalidLogin(String emailId, String password) {
 
-        closePromoPopup();
+        //closePromoPopup();
         if (waitForElementToBeVisible(signinText)) {
             click(signinText);
+            Log.info("Clicked on Signin Text");
             enterText(emailAddressTextField, emailId);
+            Log.info("Entered "+emailId+" in E-maild field");
             enterText(passwordTextField, password);
+            Log.info("Entered "+password+" in Password field");
             click(signinSubmitButton);
+            Log.info("Clicked on Submit button");
             if(errorMsgForInvalidLogin.isDisplayed()){
-               System.out.println("Error Dialog Appeared");
+               Log.info("Error Dialog Appeared");
             }
 
         }

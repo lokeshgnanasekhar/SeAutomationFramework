@@ -1,6 +1,7 @@
 package pages;
 
 import modules.EventHandler;
+import modules.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,12 +28,17 @@ public class MenuPage extends EventHandler{
         if (!(driver.getTitle().contains("Menu"))) {
             throw new IllegalStateException("Menu page is expected, but not displayed!");
         }
+        Log.info("Navigated to Menu Page");
     }
 
     public LocationSelectionPage editLocation(){
+        Log.info("Wait for 2 secs");
         waitFor(2);
+        Log.info("Waiting for Location selection block");
         waitForElementToBeVisible(locationSelectionBlock);
+        Log.info("Clicked on Location selection block");
         click(locationSelectionBlock);
+        Log.info("Clicked on Start over link");
         click(startOverLink);
         return new LocationSelectionPage(driver);
 

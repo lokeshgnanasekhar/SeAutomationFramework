@@ -1,6 +1,6 @@
 package testscripts;
 
-import foundation.TestBase;
+import testutils.TestBase;
 import org.testng.annotations.Test;
 
 /**
