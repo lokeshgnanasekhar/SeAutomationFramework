@@ -7,19 +7,19 @@ import org.testng.annotations.Test;
  * Created by Lokesh_GnanaSekhar on 6/22/2017.
  */
 public class LocationFeature extends TestBase {
-    @Test
-    public void selectCarryoutStore()
+    @Test (dataProvider = "TestDataProvider")
+    public void selectCarryoutStore(String emailid,String password,String zipcode)
     {
-        launchWebsite().login("lokeshg.mca@gmail.com","Password123")
+        launchWebsite().login(emailid,password)
                        .editLocation()
-                       .selectCarryout("40220");
+                       .selectCarryout(zipcode);
     }
 
-    @Test
-    public void selectDeliveryStore()
+    @Test (dataProvider = "TestDataProvider")
+    public void selectDeliveryStore(String emailid,String password,String street,String zipcode)
     {
-        launchWebsite().login("lokeshg.mca@gmail.com","Password123")
+        launchWebsite().login(emailid,password)
                 .editLocation()
-                .selectDelivery("2002 Papajohns Blvd","40299");
+                .selectDelivery(street,zipcode);
     }
 }

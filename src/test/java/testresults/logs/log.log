@@ -143,3 +143,265 @@
 2017-06-27 14:37:37,375 - modules.Log -INFO - Clicked on Submit button in Delivery block
 2017-06-27 14:37:40,406 - modules.Log -INFO - Navigated to Menu Page
 2017-06-27 14:37:41,955 - modules.Log -INFO - ***********************   SELECTDELIVERYSTORE- ENDED  ************************
+2017-06-30 12:55:00,581 - modules.Log -INFO - **********************************************************************************************
+2017-06-30 12:55:00,581 - modules.Log -INFO - **********************************************************************************************
+2017-06-30 12:55:00,596 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-06-30 12:55:00,596 - modules.Log -INFO - -------------------  SELECTCARRYOUTSTORE-STARTED   -------------------------
+2017-06-30 12:55:00,596 - modules.Log -INFO - **********************************************************************************************
+2017-06-30 12:55:00,596 - modules.Log -INFO - **********************************************************************************************
+2017-06-30 12:55:05,238 - modules.Log -INFO - Launching Chrome Browser
+2017-06-30 12:55:05,238 - modules.Log -INFO - Launching Chrome Browser
+2017-06-30 12:55:10,606 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-06-30 12:55:10,857 - modules.Log -INFO - Navigated to Home Page
+2017-06-30 12:55:11,256 - modules.Log -INFO - Clicked on Signin Text
+2017-06-30 12:55:11,481 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-06-30 12:55:11,673 - modules.Log -INFO - Navigated to Home Page
+2017-06-30 12:55:11,956 - modules.Log -INFO - Entered lokeshg.mca@gmail.com in E-maild field
+2017-06-30 12:55:12,257 - modules.Log -INFO - Entered Password123 in Password field
+2017-06-30 12:55:12,406 - modules.Log -INFO - Clicked on Signin Text
+2017-06-30 12:55:12,508 - modules.Log -INFO - Clicked on Submit button
+2017-06-30 12:55:12,857 - modules.Log -INFO - Entered lokeshg.mca1@gmail.com in E-maild field
+2017-06-30 12:55:13,175 - modules.Log -INFO - Entered Password123 in Password field
+2017-06-30 12:55:13,364 - modules.Log -INFO - Clicked on Submit button
+2017-06-30 12:55:13,415 - modules.Log -INFO - Error Dialog Appeared
+2017-06-30 12:55:16,140 - modules.Log -INFO - ***********************   SIGNINWITHINVALIDCREDENTIALS- ENDED  ************************
+2017-06-30 12:55:16,140 - modules.Log -INFO - **********************************************************************************************
+2017-06-30 12:55:16,140 - modules.Log -INFO - -------------------  SIGNINWITHVALIDCREDENTIALS-STARTED   -------------------------
+2017-06-30 12:55:16,140 - modules.Log -INFO - **********************************************************************************************
+2017-06-30 12:55:18,736 - modules.Log -INFO - Launching Chrome Browser
+2017-06-30 12:55:20,530 - modules.Log -INFO - Navigated to Menu Page
+2017-06-30 12:55:20,530 - modules.Log -INFO - Wait for 2 secs
+2017-06-30 12:55:22,530 - modules.Log -INFO - Waiting for Location selection block
+2017-06-30 12:55:22,572 - modules.Log -INFO - Clicked on Location selection block
+2017-06-30 12:55:22,709 - modules.Log -INFO - Clicked on Start over link
+2017-06-30 12:55:23,295 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-06-30 12:55:23,402 - modules.Log -INFO - Navigated to Home Page
+2017-06-30 12:55:23,738 - modules.Log -INFO - Clicked on Signin Text
+2017-06-30 12:55:24,389 - modules.Log -INFO - Entered lokeshg.mca@gmail.com in E-maild field
+2017-06-30 12:55:24,829 - modules.Log -INFO - Entered Password123 in Password field
+2017-06-30 12:55:24,999 - modules.Log -INFO - Clicked on Submit button
+2017-06-30 12:55:30,782 - modules.Log -INFO - Navigated to Locations Page
+2017-06-30 12:55:30,782 - modules.Log -INFO - Waiting for Carryout Block to be visible
+2017-06-30 12:55:30,913 - modules.Log -INFO - Clicked on Carryout block
+2017-06-30 12:55:31,061 - modules.Log -INFO - Entered Postal code as :40220
+2017-06-30 12:55:31,199 - modules.Log -INFO - Clicked on Submit button in Carryout block
+2017-06-30 12:55:33,018 - modules.Log -INFO - Navigated to Menu Page
+2017-06-30 12:55:33,938 - modules.Log -INFO - Select Second carryout store
+2017-06-30 12:55:34,850 - modules.Log -INFO - ***********************   SIGNINWITHVALIDCREDENTIALS- ENDED  ************************
+2017-06-30 12:55:36,974 - modules.Log -INFO - Navigated to Menu Page
+2017-06-30 12:55:38,514 - modules.Log -INFO - ***********************   SELECTCARRYOUTSTORE- ENDED  ************************
+2017-06-30 12:55:38,514 - modules.Log -INFO - **********************************************************************************************
+2017-06-30 12:55:38,514 - modules.Log -INFO - -------------------  SELECTDELIVERYSTORE-STARTED   -------------------------
+2017-06-30 12:55:38,514 - modules.Log -INFO - **********************************************************************************************
+2017-06-30 12:55:41,107 - modules.Log -INFO - Launching Chrome Browser
+2017-06-30 12:55:45,439 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-06-30 12:55:45,458 - modules.Log -INFO - Navigated to Home Page
+2017-06-30 12:55:45,729 - modules.Log -INFO - Clicked on Signin Text
+2017-06-30 12:55:46,127 - modules.Log -INFO - Entered lokeshg.mca@gmail.com in E-maild field
+2017-06-30 12:55:46,278 - modules.Log -INFO - Entered Password123 in Password field
+2017-06-30 12:55:46,395 - modules.Log -INFO - Clicked on Submit button
+2017-06-30 12:55:54,407 - modules.Log -INFO - Navigated to Menu Page
+2017-06-30 12:55:54,407 - modules.Log -INFO - Wait for 2 secs
+2017-06-30 12:55:56,441 - modules.Log -INFO - Waiting for Location selection block
+2017-06-30 12:55:56,473 - modules.Log -INFO - Clicked on Location selection block
+2017-06-30 12:55:56,578 - modules.Log -INFO - Clicked on Start over link
+2017-06-30 12:56:03,501 - modules.Log -INFO - Navigated to Locations Page
+2017-06-30 12:56:03,501 - modules.Log -INFO - Waiting for Delivery Block to be visible
+2017-06-30 12:56:03,662 - modules.Log -INFO - Entered Delivery Address as :2002 Papajohns Blvd
+2017-06-30 12:56:03,798 - modules.Log -INFO - Entered Zipcode as :40299
+2017-06-30 12:56:03,953 - modules.Log -INFO - Clicked on Submit button in Delivery block
+2017-06-30 12:56:06,970 - modules.Log -INFO - Navigated to Menu Page
+2017-06-30 12:56:08,454 - modules.Log -INFO - ***********************   SELECTDELIVERYSTORE- ENDED  ************************
+2017-07-05 11:57:51,606 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 11:57:51,621 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-05 11:57:51,621 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 11:57:56,269 - modules.Log -INFO - Launching Chrome Browser
+2017-07-05 11:58:01,435 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-05 11:58:01,511 - modules.Log -INFO - Navigated to Home Page
+2017-07-05 11:58:01,842 - modules.Log -INFO - Clicked on Signin Text
+2017-07-05 11:58:02,291 - modules.Log -INFO - Entered pji@mail.com in E-maild field
+2017-07-05 11:58:02,509 - modules.Log -INFO - Entered Password in Password field
+2017-07-05 11:58:02,663 - modules.Log -INFO - Clicked on Submit button
+2017-07-05 11:58:02,703 - modules.Log -INFO - Error Dialog Appeared
+2017-07-05 11:58:04,668 - modules.Log -INFO - ***********************   SIGNINWITHINVALIDCREDENTIALS- ENDED  ************************
+2017-07-05 11:58:04,668 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 11:58:04,668 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-05 11:58:04,668 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 11:58:07,399 - modules.Log -INFO - Launching Chrome Browser
+2017-07-05 11:58:12,123 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-05 11:58:12,151 - modules.Log -INFO - Navigated to Home Page
+2017-07-05 11:58:12,440 - modules.Log -INFO - Clicked on Signin Text
+2017-07-05 11:58:12,929 - modules.Log -INFO - Entered tester@test.com in E-maild field
+2017-07-05 11:58:13,124 - modules.Log -INFO - Entered Password in Password field
+2017-07-05 11:58:13,276 - modules.Log -INFO - Clicked on Submit button
+2017-07-05 11:58:13,314 - modules.Log -INFO - Error Dialog Appeared
+2017-07-05 11:58:14,965 - modules.Log -INFO - ***********************   SIGNINWITHINVALIDCREDENTIALS- ENDED  ************************
+2017-07-05 11:58:15,043 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 11:58:15,043 - modules.Log -INFO - -------------------  SIGNINWITHVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-05 11:58:15,043 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 11:58:17,705 - modules.Log -INFO - Launching Chrome Browser
+2017-07-05 11:58:22,366 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-05 11:58:22,391 - modules.Log -INFO - Navigated to Home Page
+2017-07-05 11:58:22,668 - modules.Log -INFO - Clicked on Signin Text
+2017-07-05 11:58:23,533 - modules.Log -INFO - Entered lokeshg.mca@gmail.com in E-maild field
+2017-07-05 11:58:23,768 - modules.Log -INFO - Entered Password123 in Password field
+2017-07-05 11:58:23,914 - modules.Log -INFO - Clicked on Submit button
+2017-07-05 11:58:31,960 - modules.Log -INFO - Navigated to Menu Page
+2017-07-05 11:58:33,537 - modules.Log -INFO - ***********************   SIGNINWITHVALIDCREDENTIALS- ENDED  ************************
+2017-07-05 12:05:41,120 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 12:05:41,120 - modules.Log -INFO - -------------------  SELECTCARRYOUTSTORE-STARTED   -------------------------
+2017-07-05 12:05:41,120 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 12:05:44,472 - modules.Log -INFO - Launching Chrome Browser
+2017-07-05 12:05:48,982 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-05 12:05:49,143 - modules.Log -INFO - Navigated to Home Page
+2017-07-05 12:05:49,455 - modules.Log -INFO - Clicked on Signin Text
+2017-07-05 12:05:49,963 - modules.Log -INFO - Entered lokeshg.mca@gmail.com in E-maild field
+2017-07-05 12:05:50,166 - modules.Log -INFO - Entered Password123 in Password field
+2017-07-05 12:05:50,302 - modules.Log -INFO - Clicked on Submit button
+2017-07-05 12:05:58,348 - modules.Log -INFO - Navigated to Menu Page
+2017-07-05 12:05:58,348 - modules.Log -INFO - Wait for 2 secs
+2017-07-05 12:06:00,357 - modules.Log -INFO - Waiting for Location selection block
+2017-07-05 12:06:00,388 - modules.Log -INFO - Clicked on Location selection block
+2017-07-05 12:06:00,527 - modules.Log -INFO - Clicked on Start over link
+2017-07-05 12:06:07,491 - modules.Log -INFO - Navigated to Locations Page
+2017-07-05 12:06:07,491 - modules.Log -INFO - Waiting for Carryout Block to be visible
+2017-07-05 12:06:07,686 - modules.Log -INFO - Clicked on Carryout block
+2017-07-05 12:06:07,862 - modules.Log -INFO - Entered Postal code as :40220
+2017-07-05 12:06:08,080 - modules.Log -INFO - Clicked on Submit button in Carryout block
+2017-07-05 12:06:09,683 - modules.Log -INFO - Select Second carryout store
+2017-07-05 12:06:12,728 - modules.Log -INFO - Navigated to Menu Page
+2017-07-05 12:06:14,491 - modules.Log -INFO - ***********************   SELECTCARRYOUTSTORE- ENDED  ************************
+2017-07-05 12:06:14,491 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 12:06:14,491 - modules.Log -INFO - -------------------  SELECTCARRYOUTSTORE-STARTED   -------------------------
+2017-07-05 12:06:14,491 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 12:06:17,073 - modules.Log -INFO - Launching Chrome Browser
+2017-07-05 12:06:21,630 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-05 12:06:21,688 - modules.Log -INFO - Navigated to Home Page
+2017-07-05 12:06:22,042 - modules.Log -INFO - Clicked on Signin Text
+2017-07-05 12:06:22,482 - modules.Log -INFO - Entered lokeshg.mca@gmail.com in E-maild field
+2017-07-05 12:06:22,672 - modules.Log -INFO - Entered Password123 in Password field
+2017-07-05 12:06:22,811 - modules.Log -INFO - Clicked on Submit button
+2017-07-05 12:06:30,861 - modules.Log -INFO - Navigated to Menu Page
+2017-07-05 12:06:30,861 - modules.Log -INFO - Wait for 2 secs
+2017-07-05 12:06:32,863 - modules.Log -INFO - Waiting for Location selection block
+2017-07-05 12:06:32,895 - modules.Log -INFO - Clicked on Location selection block
+2017-07-05 12:06:33,001 - modules.Log -INFO - Clicked on Start over link
+2017-07-05 12:06:40,110 - modules.Log -INFO - Navigated to Locations Page
+2017-07-05 12:06:40,110 - modules.Log -INFO - Waiting for Carryout Block to be visible
+2017-07-05 12:06:40,244 - modules.Log -INFO - Clicked on Carryout block
+2017-07-05 12:06:40,422 - modules.Log -INFO - Entered Postal code as :40220
+2017-07-05 12:06:40,604 - modules.Log -INFO - Clicked on Submit button in Carryout block
+2017-07-05 12:06:44,128 - modules.Log -INFO - Select Second carryout store
+2017-07-05 12:06:47,172 - modules.Log -INFO - Navigated to Menu Page
+2017-07-05 12:06:48,794 - modules.Log -INFO - ***********************   SELECTCARRYOUTSTORE- ENDED  ************************
+2017-07-05 12:06:48,794 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 12:06:48,794 - modules.Log -INFO - -------------------  SELECTCARRYOUTSTORE-STARTED   -------------------------
+2017-07-05 12:06:48,794 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 12:06:51,443 - modules.Log -INFO - Launching Chrome Browser
+2017-07-05 12:06:56,369 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-05 12:06:56,397 - modules.Log -INFO - Navigated to Home Page
+2017-07-05 12:06:56,736 - modules.Log -INFO - Clicked on Signin Text
+2017-07-05 12:06:57,217 - modules.Log -INFO - Entered lokeshg.mca@gmail.com in E-maild field
+2017-07-05 12:06:57,421 - modules.Log -INFO - Entered Password123 in Password field
+2017-07-05 12:06:57,590 - modules.Log -INFO - Clicked on Submit button
+2017-07-05 12:07:05,631 - modules.Log -INFO - Navigated to Menu Page
+2017-07-05 12:07:05,631 - modules.Log -INFO - Wait for 2 secs
+2017-07-05 12:07:07,602 - modules.Log -INFO - Waiting for Location selection block
+2017-07-05 12:07:07,633 - modules.Log -INFO - Clicked on Location selection block
+2017-07-05 12:07:07,800 - modules.Log -INFO - Clicked on Start over link
+2017-07-05 12:07:14,898 - modules.Log -INFO - Navigated to Locations Page
+2017-07-05 12:07:14,898 - modules.Log -INFO - Waiting for Carryout Block to be visible
+2017-07-05 12:07:15,086 - modules.Log -INFO - Clicked on Carryout block
+2017-07-05 12:07:15,263 - modules.Log -INFO - Entered Postal code as :40220
+2017-07-05 12:07:15,470 - modules.Log -INFO - Clicked on Submit button in Carryout block
+2017-07-05 12:07:18,444 - modules.Log -INFO - Select Second carryout store
+2017-07-05 12:07:21,479 - modules.Log -INFO - Navigated to Menu Page
+2017-07-05 12:07:23,135 - modules.Log -INFO - ***********************   SELECTCARRYOUTSTORE- ENDED  ************************
+2017-07-05 12:13:04,319 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 12:13:04,374 - modules.Log -INFO - -------------------  SELECTCARRYOUTSTORE-STARTED   -------------------------
+2017-07-05 12:13:04,375 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 12:13:08,211 - modules.Log -INFO - Launching Chrome Browser
+2017-07-05 12:13:13,830 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-05 12:13:14,095 - modules.Log -INFO - Navigated to Home Page
+2017-07-05 12:13:14,534 - modules.Log -INFO - Clicked on Signin Text
+2017-07-05 12:13:15,086 - modules.Log -INFO - Entered lokeshg.mca@gmail.com in E-maild field
+2017-07-05 12:13:15,289 - modules.Log -INFO - Entered Password123 in Password field
+2017-07-05 12:13:15,418 - modules.Log -INFO - Clicked on Submit button
+2017-07-05 12:13:23,463 - modules.Log -INFO - Navigated to Menu Page
+2017-07-05 12:13:23,463 - modules.Log -INFO - Wait for 2 secs
+2017-07-05 12:13:25,465 - modules.Log -INFO - Waiting for Location selection block
+2017-07-05 12:13:25,496 - modules.Log -INFO - Clicked on Location selection block
+2017-07-05 12:13:25,589 - modules.Log -INFO - Clicked on Start over link
+2017-07-05 12:13:32,549 - modules.Log -INFO - Navigated to Locations Page
+2017-07-05 12:13:32,549 - modules.Log -INFO - Waiting for Carryout Block to be visible
+2017-07-05 12:13:32,707 - modules.Log -INFO - Clicked on Carryout block
+2017-07-05 12:13:32,900 - modules.Log -INFO - Entered Postal code as :40220.0
+2017-07-05 12:13:33,017 - modules.Log -INFO - Clicked on Submit button in Carryout block
+2017-07-05 13:28:09,325 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 13:28:09,325 - modules.Log -INFO - -------------------  SELECTCARRYOUTSTORE-STARTED   -------------------------
+2017-07-05 13:28:09,325 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 13:28:14,051 - modules.Log -INFO - Launching Chrome Browser
+2017-07-05 13:28:19,147 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-05 13:28:19,385 - modules.Log -INFO - Navigated to Home Page
+2017-07-05 13:28:19,710 - modules.Log -INFO - Clicked on Signin Text
+2017-07-05 13:28:20,216 - modules.Log -INFO - Entered lokeshg.mca@gmail.com in E-maild field
+2017-07-05 13:28:20,446 - modules.Log -INFO - Entered Password123 in Password field
+2017-07-05 13:28:20,622 - modules.Log -INFO - Clicked on Submit button
+2017-07-05 13:28:28,667 - modules.Log -INFO - Navigated to Menu Page
+2017-07-05 13:28:28,667 - modules.Log -INFO - Wait for 2 secs
+2017-07-05 13:28:30,679 - modules.Log -INFO - Waiting for Location selection block
+2017-07-05 13:28:30,710 - modules.Log -INFO - Clicked on Location selection block
+2017-07-05 13:28:30,820 - modules.Log -INFO - Clicked on Start over link
+2017-07-05 13:28:38,239 - modules.Log -INFO - Navigated to Locations Page
+2017-07-05 13:28:38,239 - modules.Log -INFO - Waiting for Carryout Block to be visible
+2017-07-05 13:28:38,387 - modules.Log -INFO - Clicked on Carryout block
+2017-07-05 13:28:38,585 - modules.Log -INFO - Entered Postal code as :40220
+2017-07-05 13:28:38,732 - modules.Log -INFO - Clicked on Submit button in Carryout block
+2017-07-05 13:28:42,490 - modules.Log -INFO - Select Second carryout store
+2017-07-05 13:28:45,523 - modules.Log -INFO - Navigated to Menu Page
+2017-07-05 13:28:47,382 - modules.Log -INFO - ***********************   SELECTCARRYOUTSTORE- ENDED  ************************
+2017-07-05 13:28:47,382 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 13:28:47,382 - modules.Log -INFO - -------------------  SELECTCARRYOUTSTORE-STARTED   -------------------------
+2017-07-05 13:28:47,382 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 13:28:49,982 - modules.Log -INFO - Launching Chrome Browser
+2017-07-05 13:28:54,892 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-05 13:28:54,978 - modules.Log -INFO - Navigated to Home Page
+2017-07-05 13:28:55,427 - modules.Log -INFO - Clicked on Signin Text
+2017-07-05 13:28:55,868 - modules.Log -INFO - Entered lokeshg.mca@gmail.com in E-maild field
+2017-07-05 13:28:56,135 - modules.Log -INFO - Entered Password123 in Password field
+2017-07-05 13:28:56,274 - modules.Log -INFO - Clicked on Submit button
+2017-07-05 13:29:04,316 - modules.Log -INFO - Navigated to Menu Page
+2017-07-05 13:29:04,317 - modules.Log -INFO - Wait for 2 secs
+2017-07-05 13:29:06,317 - modules.Log -INFO - Waiting for Location selection block
+2017-07-05 13:29:06,386 - modules.Log -INFO - Clicked on Location selection block
+2017-07-05 13:29:06,586 - modules.Log -INFO - Clicked on Start over link
+2017-07-05 13:29:14,280 - modules.Log -INFO - Navigated to Locations Page
+2017-07-05 13:29:14,280 - modules.Log -INFO - Waiting for Carryout Block to be visible
+2017-07-05 13:29:14,444 - modules.Log -INFO - Clicked on Carryout block
+2017-07-05 13:29:14,691 - modules.Log -INFO - Entered Postal code as :40299
+2017-07-05 13:29:14,904 - modules.Log -INFO - Clicked on Submit button in Carryout block
+2017-07-05 13:29:19,514 - modules.Log -INFO - Select Second carryout store
+2017-07-05 13:29:22,547 - modules.Log -INFO - Navigated to Menu Page
+2017-07-05 13:29:24,213 - modules.Log -INFO - ***********************   SELECTCARRYOUTSTORE- ENDED  ************************
+2017-07-05 13:29:24,213 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 13:29:24,213 - modules.Log -INFO - -------------------  SELECTCARRYOUTSTORE-STARTED   -------------------------
+2017-07-05 13:29:24,213 - modules.Log -INFO - **********************************************************************************************
+2017-07-05 13:29:27,311 - modules.Log -INFO - Launching Chrome Browser
+2017-07-05 13:29:32,698 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-05 13:29:33,069 - modules.Log -INFO - Navigated to Home Page
+2017-07-05 13:29:33,485 - modules.Log -INFO - Clicked on Signin Text
+2017-07-05 13:29:33,986 - modules.Log -INFO - Entered lokeshg.mca@gmail.com in E-maild field
+2017-07-05 13:29:34,327 - modules.Log -INFO - Entered Password123 in Password field
+2017-07-05 13:29:34,483 - modules.Log -INFO - Clicked on Submit button
+2017-07-05 13:29:42,518 - modules.Log -INFO - Navigated to Menu Page
+2017-07-05 13:29:42,518 - modules.Log -INFO - Wait for 2 secs
+2017-07-05 13:29:44,521 - modules.Log -INFO - Waiting for Location selection block
+2017-07-05 13:29:44,553 - modules.Log -INFO - Clicked on Location selection block
+2017-07-05 13:29:44,738 - modules.Log -INFO - Clicked on Start over link
+2017-07-05 13:29:52,081 - modules.Log -INFO - Navigated to Locations Page
+2017-07-05 13:29:52,081 - modules.Log -INFO - Waiting for Carryout Block to be visible
+2017-07-05 13:29:52,212 - modules.Log -INFO - Clicked on Carryout block
+2017-07-05 13:29:52,408 - modules.Log -INFO - Entered Postal code as :58545
+2017-07-05 13:29:52,545 - modules.Log -INFO - Clicked on Submit button in Carryout block
+2017-07-05 13:31:52,792 - modules.Log -INFO - Select Second carryout store
+2017-07-05 13:31:57,549 - modules.Log -INFO - ***********************   SELECTCARRYOUTSTORE- ENDED  ************************

@@ -1,5 +1,6 @@
 package testutils;
 
+import modules.DataSource;
 import modules.ProjectConfigReader;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -10,14 +11,14 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import pages.HomePage;
 import modules.Log;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
+import java.io.*;
 import java.lang.reflect.Method;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -101,7 +102,35 @@ public class TestBase {
         return new HomePage(driver);
     }
 
+    @DataProvider(name = "TestDataProvider")
+    public static Object[][] testDataProvider(Method method) {
 
+        Object testData[][] = null;
+        try {
+            testData = DataSource.getDataForTestCase(method.getName());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return testData;
+    }
+
+    @DataProvider(name = "TestDataProvider_Optimized")
+    public static Object[][] testDataProvider_Optimized(Method method) {
+
+        Object testData[][] = null;
+        try {
+            List<Map<String, String>> testDataList = DataSource
+                    .getDataForTestCase_Optimized(method.getName());
+            testData = new Object[testDataList.size()][1];
+            for (int i = 0; i < testDataList.size(); i++) {
+                testData[i][0] = testDataList.get(i);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return testData;
+    }
 
 
 }

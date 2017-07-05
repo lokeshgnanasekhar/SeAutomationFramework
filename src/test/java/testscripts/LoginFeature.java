@@ -1,5 +1,6 @@
 package testscripts;
 
+import org.testng.annotations.DataProvider;
 import testutils.TestBase;
 import org.testng.annotations.Test;
 
@@ -8,15 +9,15 @@ import org.testng.annotations.Test;
  */
 public class LoginFeature extends TestBase {
 
-    @Test
-    public void SigninWithValidCredentials()
+    @Test (dataProvider = "TestDataProvider")
+    public void SigninWithValidCredentials(String emailId,String password)
     {
-        launchWebsite().login("lokeshg.mca@gmail.com","Password123");
+        launchWebsite().login(emailId,password);
     }
 
-    @Test
-    public void SigninWithInvalidCredentials()
+    @Test (dataProvider = "TestDataProvider")
+    public void SigninWithInvalidCredentials(String emailId,String password)
     {
-        launchWebsite().invalidLogin("lokeshg.mca1@gmail.com","Password123");
+        launchWebsite().invalidLogin(emailId,password);
     }
 }

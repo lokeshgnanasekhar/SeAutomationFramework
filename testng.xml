@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Test-suite" parallel="classes" thread-count="2">
+<suite name="Test-suite" parallel="classes" thread-count="1">
     <test name="Login-Test">
        <classes>
            <class name="testscripts.LocationFeature"/>
