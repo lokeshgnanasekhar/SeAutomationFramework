@@ -405,3 +405,147 @@
 2017-07-05 13:29:52,545 - modules.Log -INFO - Clicked on Submit button in Carryout block
 2017-07-05 13:31:52,792 - modules.Log -INFO - Select Second carryout store
 2017-07-05 13:31:57,549 - modules.Log -INFO - ***********************   SELECTCARRYOUTSTORE- ENDED  ************************
+2017-07-06 15:45:51,249 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:45:51,255 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 15:45:51,255 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:46:35,762 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:46:35,766 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 15:46:35,766 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:46:40,615 - modules.Log -INFO - Launching Chrome Browser
+2017-07-06 15:46:45,580 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-06 15:46:45,745 - modules.Log -INFO - Navigated to Home Page
+2017-07-06 15:46:46,013 - modules.Log -INFO - Clicked on Signin Text
+2017-07-06 15:46:46,502 - modules.Log -INFO - Entered pji@mail.com in E-maild field
+2017-07-06 15:46:46,758 - modules.Log -INFO - Entered Password in Password field
+2017-07-06 15:46:46,896 - modules.Log -INFO - Clicked on Submit button
+2017-07-06 15:46:46,933 - modules.Log -INFO - Error Dialog Appeared
+2017-07-06 15:46:48,806 - modules.Log -INFO - ***********************   SIGNINWITHINVALIDCREDENTIALS- ENDED  ************************
+2017-07-06 15:46:48,816 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:46:48,817 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 15:46:48,817 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:46:51,564 - modules.Log -INFO - Launching Chrome Browser
+2017-07-06 15:46:56,469 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-06 15:46:56,488 - modules.Log -INFO - Navigated to Home Page
+2017-07-06 15:46:56,697 - modules.Log -INFO - Clicked on Signin Text
+2017-07-06 15:46:57,205 - modules.Log -INFO - Entered tester@test.com in E-maild field
+2017-07-06 15:46:57,368 - modules.Log -INFO - Entered Password in Password field
+2017-07-06 15:46:57,479 - modules.Log -INFO - Clicked on Submit button
+2017-07-06 15:46:57,525 - modules.Log -INFO - Error Dialog Appeared
+2017-07-06 15:46:59,026 - modules.Log -INFO - ***********************   SIGNINWITHINVALIDCREDENTIALS- ENDED  ************************
+2017-07-06 15:49:13,920 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:49:13,925 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 15:49:13,925 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:49:17,537 - modules.Log -INFO - Launching Chrome Browser
+2017-07-06 15:49:22,353 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-06 15:49:22,428 - modules.Log -INFO - Navigated to Home Page
+2017-07-06 15:49:22,687 - modules.Log -INFO - Clicked on Signin Text
+2017-07-06 15:49:23,196 - modules.Log -INFO - Entered pji@mail.com in E-maild field
+2017-07-06 15:49:23,378 - modules.Log -INFO - Entered Password in Password field
+2017-07-06 15:49:23,499 - modules.Log -INFO - Clicked on Submit button
+2017-07-06 15:49:23,538 - modules.Log -INFO - Error Dialog Appeared
+2017-07-06 15:50:14,034 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:50:14,038 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 15:50:14,039 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:50:17,244 - modules.Log -INFO - Launching Chrome Browser
+2017-07-06 15:50:21,770 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-06 15:50:21,852 - modules.Log -INFO - Navigated to Home Page
+2017-07-06 15:50:22,195 - modules.Log -INFO - Clicked on Signin Text
+2017-07-06 15:50:23,057 - modules.Log -INFO - Entered pji@mail.com in E-maild field
+2017-07-06 15:50:23,269 - modules.Log -INFO - Entered Password in Password field
+2017-07-06 15:50:23,379 - modules.Log -INFO - Clicked on Submit button
+2017-07-06 15:50:23,429 - modules.Log -INFO - Error Dialog Appeared
+2017-07-06 15:54:37,261 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:54:37,265 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 15:54:37,266 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:54:40,970 - modules.Log -INFO - Launching Chrome Browser
+2017-07-06 15:54:46,057 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-06 15:54:46,278 - modules.Log -INFO - Navigated to Home Page
+2017-07-06 15:54:46,657 - modules.Log -INFO - Clicked on Signin Text
+2017-07-06 15:54:47,162 - modules.Log -INFO - Entered pji@mail.com in E-maild field
+2017-07-06 15:54:47,389 - modules.Log -INFO - Entered Password in Password field
+2017-07-06 15:54:47,527 - modules.Log -INFO - Clicked on Submit button
+2017-07-06 15:54:47,566 - modules.Log -INFO - Error Dialog Appeared
+2017-07-06 15:56:09,439 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:56:09,443 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 15:56:09,443 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:56:12,838 - modules.Log -INFO - Launching Chrome Browser
+2017-07-06 15:56:17,665 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-06 15:56:17,755 - modules.Log -INFO - Navigated to Home Page
+2017-07-06 15:56:18,040 - modules.Log -INFO - Clicked on Signin Text
+2017-07-06 15:56:18,454 - modules.Log -INFO - Entered pji@mail.com in E-maild field
+2017-07-06 15:56:18,624 - modules.Log -INFO - Entered Password in Password field
+2017-07-06 15:56:18,738 - modules.Log -INFO - Clicked on Submit button
+2017-07-06 15:56:18,775 - modules.Log -INFO - Error Dialog Appeared
+2017-07-06 15:56:21,083 - modules.Log -INFO - ***********************   SIGNINWITHINVALIDCREDENTIALS- ENDED  ************************
+2017-07-06 15:56:21,094 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:56:21,094 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 15:56:21,094 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 15:56:23,688 - modules.Log -INFO - Launching Chrome Browser
+2017-07-06 15:56:28,254 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-06 15:56:28,293 - modules.Log -INFO - Navigated to Home Page
+2017-07-06 15:56:28,595 - modules.Log -INFO - Clicked on Signin Text
+2017-07-06 15:56:29,117 - modules.Log -INFO - Entered tester@test.com in E-maild field
+2017-07-06 15:56:29,327 - modules.Log -INFO - Entered Password in Password field
+2017-07-06 15:56:29,457 - modules.Log -INFO - Clicked on Submit button
+2017-07-06 15:56:29,504 - modules.Log -INFO - Error Dialog Appeared
+2017-07-06 15:56:31,375 - modules.Log -INFO - ***********************   SIGNINWITHINVALIDCREDENTIALS- ENDED  ************************
+2017-07-06 16:01:10,775 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 16:01:10,780 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 16:01:10,780 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 16:01:13,963 - modules.Log -INFO - Launching Chrome Browser
+2017-07-06 16:01:18,616 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-06 16:01:18,695 - modules.Log -INFO - Navigated to Home Page
+2017-07-06 16:01:18,972 - modules.Log -INFO - Clicked on Signin Text
+2017-07-06 16:01:19,435 - modules.Log -INFO - Entered pji@mail.com in E-maild field
+2017-07-06 16:01:19,623 - modules.Log -INFO - Entered Password in Password field
+2017-07-06 16:01:19,754 - modules.Log -INFO - Clicked on Submit button
+2017-07-06 16:01:19,794 - modules.Log -INFO - Error Dialog Appeared
+2017-07-06 16:01:22,489 - modules.Log -INFO - ***********************   SIGNINWITHINVALIDCREDENTIALS- ENDED  ************************
+2017-07-06 16:01:22,501 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 16:01:22,501 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 16:01:22,501 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 16:01:25,030 - modules.Log -INFO - Launching Chrome Browser
+2017-07-06 16:01:29,693 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-06 16:01:29,725 - modules.Log -INFO - Navigated to Home Page
+2017-07-06 16:01:30,079 - modules.Log -INFO - Clicked on Signin Text
+2017-07-06 16:01:30,630 - modules.Log -INFO - Entered tester@test.com in E-maild field
+2017-07-06 16:01:30,824 - modules.Log -INFO - Entered Password in Password field
+2017-07-06 16:01:30,958 - modules.Log -INFO - Clicked on Submit button
+2017-07-06 16:01:31,036 - modules.Log -INFO - Error Dialog Appeared
+2017-07-06 16:01:32,715 - modules.Log -INFO - ***********************   SIGNINWITHINVALIDCREDENTIALS- ENDED  ************************
+2017-07-06 16:04:39,028 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 16:04:39,033 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 16:04:39,033 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 16:04:42,536 - modules.Log -INFO - Launching Chrome Browser
+2017-07-06 16:04:48,126 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-06 16:04:50,931 - modules.Log -INFO - ***********************   SIGNINWITHINVALIDCREDENTIALS- ENDED  ************************
+2017-07-06 16:04:50,944 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 16:04:50,944 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 16:04:50,944 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 16:04:53,546 - modules.Log -INFO - Launching Chrome Browser
+2017-07-06 16:04:58,103 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-06 16:04:58,140 - modules.Log -INFO - Navigated to Home Page
+2017-07-06 16:04:58,502 - modules.Log -INFO - Clicked on Signin Text
+2017-07-06 16:04:58,939 - modules.Log -INFO - Entered tester@test.com in E-maild field
+2017-07-06 16:04:59,108 - modules.Log -INFO - Entered Password in Password field
+2017-07-06 16:04:59,240 - modules.Log -INFO - Clicked on Submit button
+2017-07-06 16:04:59,275 - modules.Log -INFO - Error Dialog Appeared
+2017-07-06 16:05:01,230 - modules.Log -INFO - ***********************   SIGNINWITHINVALIDCREDENTIALS- ENDED  ************************
+2017-07-06 16:27:57,350 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 16:27:57,352 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 16:27:57,352 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 16:28:00,817 - modules.Log -INFO - Launching Chrome Browser
+2017-07-06 16:28:06,232 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-06 16:28:09,187 - modules.Log -INFO - ***********************   SIGNINWITHINVALIDCREDENTIALS- ENDED  ************************
+2017-07-06 16:28:09,205 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 16:28:09,205 - modules.Log -INFO - -------------------  SIGNINWITHINVALIDCREDENTIALS-STARTED   -------------------------
+2017-07-06 16:28:09,205 - modules.Log -INFO - **********************************************************************************************
+2017-07-06 16:28:11,911 - modules.Log -INFO - Launching Chrome Browser
+2017-07-06 16:28:16,635 - modules.Log -INFO - Launching https://www.papajohns.com
+2017-07-06 16:28:16,671 - modules.Log -INFO - Navigated to Home Page
+2017-07-06 16:28:16,977 - modules.Log -INFO - Clicked on Signin Text
+2017-07-06 16:28:17,408 - modules.Log -INFO - Entered tester@test.com in E-maild field
+2017-07-06 16:28:17,591 - modules.Log -INFO - Entered Password in Password field
+2017-07-06 16:28:17,716 - modules.Log -INFO - Clicked on Submit button
+2017-07-06 16:28:17,750 - modules.Log -INFO - Error Dialog Appeared
+2017-07-06 16:28:19,494 - modules.Log -INFO - ***********************   SIGNINWITHINVALIDCREDENTIALS- ENDED  ************************
